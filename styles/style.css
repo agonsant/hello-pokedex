@@ -67,6 +67,7 @@
 .pokemon__item {
   position: relative;
   max-width: 125px;
+  width: 100%;
 }
 
 .pokemon__item::after {
@@ -100,4 +101,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
   gap: var(--po-outter-spacing-xs);
+  justify-items: center;
+  align-items: center;
 }
