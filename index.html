@@ -6,22 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex Listado</title>
     <link rel="icon" type="image/png" href="img/pokemon.png">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body>
-    <header>
-        <img src="img/pokemon.png" alt="Pokemon">
-        <h1>Pokedex</h1>
-        <input type="text" placeholder="Buscar Pokemon" />
-        <button>#</button>
+<body class="page__container">
+    <header class="header__container">
+        <div class="title__container">
+            <img class="title__logo" src="img/pokeball.png" alt="Pokemon">
+            <h1 class="title__text headline">Pokédex</h1>
+        </div>
+        <div class="filters__container">
+            <div class="filters__search inner-shadow">
+                <img src="./img/search.svg">
+                <input type="text" placeholder="Search" />
+            </div>
+            <button class="filters__sort inner-shadow">#</button>
+        </div>
     </header>
-    <main>
-        <ul>
-            <li>
-                <p>#001</p>
-                <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT56TfnKQa2Vh6CiKVhaZByt1fuXOaE_y_i0Q&s" />
-                <p>Othrsaur</p>
+    <main class="main__container">
+        <ul class="pokemon__list">
+            <li class="pokemon__item">
+                <article class="pokemon__card">
+                    <p class="pokemon__id caption">#001</p>
+                    <img width="72"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT56TfnKQa2Vh6CiKVhaZByt1fuXOaE_y_i0Q&s" />
+                    <p class="body body--xs">Bulbasaur</p>
+                </article>
+            </li>
+            <li class="pokemon__item">
+                <article class="pokemon__card">
+                    <p class="pokemon__id caption">#001</p>
+                    <img width="72"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT56TfnKQa2Vh6CiKVhaZByt1fuXOaE_y_i0Q&s" />
+                    <p class="body body--xs">Bulbasaur</p>
+                </article>
+            </li>
+            <li class="pokemon__item">
+                <article class="pokemon__card">
+                    <p class="pokemon__id caption">#001</p>
+                    <img width="72"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT56TfnKQa2Vh6CiKVhaZByt1fuXOaE_y_i0Q&s" />
+                    <p class="body body--xs">Bulbasaur</p>
+                </article>
+            </li>
+            <li class="pokemon__item">
+                <article class="pokemon__card">
+                    <p class="pokemon__id caption">#001</p>
+                    <img width="72"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT56TfnKQa2Vh6CiKVhaZByt1fuXOaE_y_i0Q&s" />
+                    <p class="body body--xs">Bulbasaur</p>
+                </article>
             </li>
         </ul>
     </main>

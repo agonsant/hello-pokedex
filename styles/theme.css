@@ -1,0 +1,33 @@
+:root {
+  /** COLORS **/
+
+  --po-primary-color: #dc0a2d;
+  --po-title-color: #fff;
+  --po-main-bg-color: #fff;
+
+  /** SPACING **/
+  --po-inner-spacing-xs: 4px;
+  --po-inner-spacing-sm: 8px;
+  --po-inner-spacing-md: 12px;
+  --po-inner-spacing-lg: 24px;
+
+  --po-outter-spacing-xs: 8px;
+  --po-outter-spacing-sm: 16px;
+
+  /** ELEVATIONS AND SHADOWS **/
+
+  --po-inner-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
+  --po-elevation-sm: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+
+  /** CORNERS **/
+  --po-corner-sm: 8px;
+  --po-corner-lg: 16px;
+  --po-corner-full: 1000px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --po-primary-color: #460812;
+    --po-title-color: #949191;
+  }
+}
